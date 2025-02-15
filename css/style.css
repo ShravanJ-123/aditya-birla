@@ -1472,6 +1472,15 @@ footer .inner-footer-bottom p a {
   animation: 3s linear infinite Gradient;
   font-size: 14px;
 }
+.bg-animations {
+  background: linear-gradient(
+    -45deg,
+    #0c3730, #015874, #3a500a, #0c3730, #015874
+  );
+  background-size: 400% 400%;
+  animation: 3s linear infinite Gradient;
+  font-size: 14px;
+}
 @keyframes Gradient {
   0%,
   100% {
