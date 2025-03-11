@@ -34,7 +34,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     error_log("Collected Form Data: Name: $name, Email: $email, Phone: $phone");
 
     // Create the email body content
-    $bodyContent = "<h1>Sent Email From Enquiry Form For - Piramal Revanta</h1>";
+    $bodyContent = "<h1>Sent Email From Enquiry Form For - Birla Punya Phase 1</h1>";
     $bodyContent .= "
         The person that contacted you is <strong>$name</strong><br>
         E-mail: $email<br>
