@@ -17,6 +17,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/intlTelInput.css">
     <link rel="stylesheet" href="css/slide-to-submit.css">
+    <link rel="preload" as="image" href="images/banner-1.webp" type="image/webp">
+
     <style>
         .iti{width: 100%;}
         
@@ -86,13 +88,13 @@
     <div id="carouselExampleCaptions" class="carousel slide banner_section" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img class="banner-img" src="images/banner-1.webp" alt="banner-1">
+                <img class="banner-img" src="images/banner-1.webp" alt="banner-1" loading="eager">
             </div>
             <div class="carousel-item">
-                <img class="banner-img" src="images/banner-2.webp" alt="banner-2">
+                <img class="banner-img" src="images/banner-2.webp" alt="banner-2" loading="lazy">
             </div>
         </div>
-
+        
         <div class="banner_content">
             <div class="content_section">
                 <div class="inner-text">
@@ -118,7 +120,7 @@
                     <div class="point">
                         <ul class="key_high">
                             <li><img src="images/check1.png" alt="check1"> <span> Save Big on Your Dream Home</span> </li>
-                            <li><img src="images/check1.png" alt="check-2"> <span> 100% Refundable EOI - ₹2.07 Lac* </span> </li>
+                            <li><img src="images/check1.png" alt="check-2"> <span> 6100% Refundable EOI - ₹2.07 Lac* </span> </li>
                         </ul>
                         <div class="banner_btn ">
                             <button type="button" data-toggle="modal" data-target="#exampleModal1"> Know More
